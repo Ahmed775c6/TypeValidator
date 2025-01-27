@@ -26,6 +26,7 @@ This method validates whether a single value matches the expected type.
 **Example Usage**:
 ```python
 // Validate a single Variabale
+from TypeValidator import TypeValidator
 type_validator = TypeValidator()
 result = type_validator.validate(42, int)
 print(result)  # Output: True
